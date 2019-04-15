@@ -18,6 +18,10 @@
 //require_once 'mastodonapi/Mastodon_api.php';
 require_once 'Mastodon/Mastodon.php';
 
+use Shaarli\Config\ConfigManager;
+use Shaarli\Plugin\PluginManager;
+use Shaarli\Router;
+
 /**
  * Maximum length for a toot.
  */
